@@ -1,0 +1,21 @@
+#otp0, #otp1, #otp2, #otp3, #otp4, #otp5{
+    text-align: center;
+  }
+.activate-sec .cover{
+    background-image: url('../../assets/semiLock.png');
+    background-size: contain;
+}
+@media(max-width:650px){
+    .activate-sec .logo{
+        margin-bottom: 40px;
+    }
+
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#otp0, #otp1, #otp2, #otp3, #otp4, #otp5:focus {
+    caret-color: transparent;
+  }

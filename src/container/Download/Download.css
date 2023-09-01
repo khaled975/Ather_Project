@@ -1,0 +1,43 @@
+.app__download-btns{
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+.app__download-btns .butn{
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.app__download-btns .android_btn{
+  background-color: var(--main-color);
+}
+.app__download-btns .apple_btn{
+  background-color: #FFEFED;
+}
+.app__download-btns .pp{
+text-align: center;
+font-family: var(--font-base);
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+text-transform: capitalize;
+cursor: pointer;
+}
+.android-link{
+  color: var(--color-white);
+}
+.apple-link{
+  color: var(--main-color);
+}
+@media screen and (max-width: 700px) {
+  .app__download-btns{
+    flex-direction: column;
+  }
+}

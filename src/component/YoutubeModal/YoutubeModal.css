@@ -1,0 +1,21 @@
+.modal-close{
+  position: absolute;
+  bottom: -25%;
+  left: 50%;
+  transform: translate(-50%, 25%);
+  cursor: pointer;
+}
+iframe{
+  position: relative;
+}
+@media screen and (min-width:1150px){
+  iframe{
+   width: 1000px;
+   height: 600px;
+  }
+}
+@media screen and (max-width:600px){
+  iframe{
+   width: max-content;
+  }
+}
